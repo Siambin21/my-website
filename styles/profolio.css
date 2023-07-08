@@ -2,8 +2,14 @@
 nav {
     display: flex;
     list-style: none;
+    align-items: center;
 
 }
+.space{justify-content: space-around;}
+nav ul{list-style: none;
+align-items: center;
+display: flex;
+margin-right: 400px;}
 .nav-title{
     color: #181818;
     font-family: Open Sans;
@@ -34,5 +40,23 @@ background: #FD6E0A;
 width: 150px;
 height: 64px;
 flex-shrink: 0;
+color: white;
+padding: 18px 35px;
 }
-
+.list{
+    margin-right: 400px;
+}
+.header{
+    
+height: 70px;
+flex-shrink: 0;
+background: #FFF8F3;
+}
+.bannar{
+    display: flex;
+    align-items: center;
+}
+.dp{width: 500px;
+    height: 600px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), no-repeat;}
