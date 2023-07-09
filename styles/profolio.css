@@ -12,7 +12,8 @@ margin-right: 500px;
 nav ul{list-style: none;
 align-items: center;
 display: flex;
-margin-right: 400px;}
+}
+nav div{justify-content: space-between;}
 .nav-title{
     color: #181818;
     font-family: Open Sans;
@@ -175,10 +176,55 @@ gap: 24px;
 }
 .resume-column-titile{
     color: var(--dark-02, #474747);
-    
+
 font-size: 30px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 
+}
+.resume-container{
+    display: flex;
+    gap: 50px
+    ;
+    margin: 100px;
+}
+.resume-item-description{
+
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.ins{
+    color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;color: var(--dark-03, #757575);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 10px;
+}
+.resume-item-title{
+    color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 10px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.download-cv{
+ text-align: center;
+ margin-top: 50px;
 }
